@@ -446,9 +446,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/vendor\/modernizr.js",
-		"outputAbbreviatedPath": "\/js\/vendor\/min\/modernizr.js",
+		"outputAbbreviatedPath": "\/js\/min\/vendor\/modernizr.js",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
+		"outputPathIsSetByUser": 1,
 		"outputStyle": 2,
 		"syntaxCheckerStyle": 0
 		},
@@ -495,6 +495,14 @@
 			"linkedFileAbbreviatedPath": "\/js\/vendor\/jquery.debouncedresize.js",
 			"position": 0,
 			"type": 0
+			}
+		],
+	"\/js\/vendor\/modernizr.js": [
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/bower_components\/detectizr\/dist\/detectizr.js",
+			"position": 0,
+			"type": 1
 			}
 		]
 	},
