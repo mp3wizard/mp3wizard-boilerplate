@@ -8,41 +8,45 @@
 
     <link rel="stylesheet" href="css/main.css">
     
-    <!-- env:dev -->
+    <!-- env:dev --#>
     <script src="js/vendor/modernizr.js"></script>
     <script src="bower_components/detectizr/dist/detectizr.js"></script>
     <!-- env:dev:end -->
 
-
-    <!-- env:prod --#>
+    <!-- env:prod -->
         <script src="js/min/vendor/modernizr.js"></script>
     <!-- env:prod:end -->
     
-</head>
-<body>
+</head><body>
+    <header>
+    Header
+</header>
+    <main>
+        
+    </main>
 
-    <header></header>
+    <footer>
+    Footer
+</footer>
+    <!-- env:dev --#>
+<script src="js/vendor/jquery.min.js"></script>
+<script src="js/vendor/jquery.debouncedresize.js"></script>
+<script src="js/main.js"></script>
+<!-- env:dev:end -->
 
-    <main></main>
+<!-- env:prod -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="js/min/main.js"></script>
+<!-- env:prod:end -->
 
-    <footer></footer>
-    
-    <!-- env:dev -->
-    <script src="js/vendor/jquery.min.js"></script>
-    <script src="js/vendor/jquery.debouncedresize.js"></script>
-    <script src="js/main.js"></script>
-
-    <script src="js/blank.js"></script>
+<!--[if lte IE8]>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
+<![endif]-->
+    <!-- env:dev --#>
+        <script src="js/blank.js"></script>
     <!-- env:dev:end -->
-    
-    <!-- env:prod --#>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src="js/min/main.js"></script>
+    <!-- env:prod -->
+        <script src="js/min/blank.js"></script>
     <!-- env:prod:end -->
-    
-    <!--[if lte IE8]>
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
-    <![endif]-->
-
 </body>
 </html>
