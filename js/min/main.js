@@ -1,2 +1,2 @@
-
+!function($){var t=$.event,e,i;e=t.special.debouncedresize={setup:function(){$(this).on("resize",e.handler)},teardown:function(){$(this).off("resize",e.handler)},handler:function(n,h){var r=this,a=arguments,s=function(){n.type="debouncedresize",t.dispatch.apply(r,a)};i&&clearTimeout(i),h?s():i=setTimeout(s,e.threshold)},threshold:150}}(jQuery),jQuery(document).ready(function($){Modernizr.input.placeholder||$("input").each(function(){""==$(this).val()&&""!=$(this).attr("placeholder")&&($(this).val($(this).attr("placeholder")),$(this).focus(function(){$(this).val()==$(this).attr("placeholder")&&$(this).val("")}),$(this).blur(function(){""==$(this).val()&&$(this).val($(this).attr("placeholder"))}))})});
 //# sourceMappingURL=./main.js.map
