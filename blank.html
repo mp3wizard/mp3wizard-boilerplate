@@ -7,15 +7,27 @@
     <title></title>
 
     <link rel="stylesheet" href="css/main.css">
+    
+    <!-- env:dev -->
+    <script src="bower_components/"></script>
+    <!-- env:dev:end -->
+
+    <!-- env:prod --#>
+    <script src="js/min/vendor/modernizr.js"></script>
+    <!-- env:prod:end -->
 </head>
 <body>
     
-    <!-- Development -->
+    <!-- env:dev -->
     <script src="js/vendor/jquery.min.js"></script>
     <script src="js/vendor/jquery.debouncedresize.js"></script>
     <script src="js/vendor/main.js"></script>
-    <!-- Production -->
+    <!-- env:dev:end -->
+    
+    <!-- env:prod --#>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src="js/vendor/min/main.js"></script>
+    <script src="js/min/main.js"></script>
+    <!-- env:prod:end -->
+
 </body>
 </html>
