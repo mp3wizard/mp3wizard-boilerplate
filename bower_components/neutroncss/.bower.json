@@ -28,8 +28,7 @@
     "tag": "0.9.2",
     "commit": "1a703b671251cbe70f19cf3f28f60cfc2497198c"
   },
-  "_source": "git://github.com/NeutronCSS/neutroncss.git",
+  "_source": "https://github.com/NeutronCSS/neutroncss.git",
   "_target": "~0.9.2",
-  "_originalSource": "neutroncss",
-  "_direct": true
+  "_originalSource": "neutroncss"
 }

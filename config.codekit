@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "19102",
+"creatorBuild": "19127",
 "files": {
 	"\/blank.html": {
 		"fileType": 8192,
@@ -409,6 +409,26 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
+	"\/bower_components\/font-awesome\/less\/screen-reader.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/font-awesome\/less\/screen-reader.less",
+		"outputAbbreviatedPath": "\/bower_components\/font-awesome\/css\/screen-reader.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 1,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
 	"\/bower_components\/font-awesome\/less\/stacked.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
@@ -452,7 +472,7 @@
 	"\/bower_components\/font-awesome\/scss\/_animated.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 10,
+		"decimalPrecision": 2,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -468,7 +488,7 @@
 	"\/bower_components\/font-awesome\/scss\/_bordered-pulled.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 10,
+		"decimalPrecision": 2,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -484,7 +504,7 @@
 	"\/bower_components\/font-awesome\/scss\/_core.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 10,
+		"decimalPrecision": 2,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -500,7 +520,7 @@
 	"\/bower_components\/font-awesome\/scss\/_fixed-width.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 10,
+		"decimalPrecision": 2,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -516,7 +536,7 @@
 	"\/bower_components\/font-awesome\/scss\/_icons.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 10,
+		"decimalPrecision": 2,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -532,7 +552,7 @@
 	"\/bower_components\/font-awesome\/scss\/_larger.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 10,
+		"decimalPrecision": 2,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -548,7 +568,7 @@
 	"\/bower_components\/font-awesome\/scss\/_list.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 10,
+		"decimalPrecision": 2,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -564,7 +584,7 @@
 	"\/bower_components\/font-awesome\/scss\/_mixins.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 10,
+		"decimalPrecision": 2,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -580,7 +600,7 @@
 	"\/bower_components\/font-awesome\/scss\/_path.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 10,
+		"decimalPrecision": 2,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -596,7 +616,7 @@
 	"\/bower_components\/font-awesome\/scss\/_rotated-flipped.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 10,
+		"decimalPrecision": 2,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -609,10 +629,26 @@
 		"shouldRunBless": 1,
 		"useLibsass": 1
 		},
+	"\/bower_components\/font-awesome\/scss\/_screen-reader.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 2,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/font-awesome\/scss\/_screen-reader.scss",
+		"outputAbbreviatedPath": "\/bower_components\/font-awesome\/css\/_screen-reader.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 1,
+		"useLibsass": 1
+		},
 	"\/bower_components\/font-awesome\/scss\/_stacked.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 10,
+		"decimalPrecision": 2,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -628,7 +664,7 @@
 	"\/bower_components\/font-awesome\/scss\/_variables.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 10,
+		"decimalPrecision": 2,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -644,7 +680,7 @@
 	"\/bower_components\/font-awesome\/scss\/font-awesome.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 10,
+		"decimalPrecision": 2,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -657,10 +693,140 @@
 		"shouldRunBless": 1,
 		"useLibsass": 1
 		},
+	"\/bower_components\/matchHeight\/bower.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/matchHeight\/bower.json",
+		"orderOutput": 1,
+		"outputAbbreviatedPath": "\/bower_components\/matchHeight\/min\/bower.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/bower_components\/matchHeight\/CHANGELOG.md": {
+		"criticStyle": 0,
+		"enableFootnotes": 1,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/matchHeight\/CHANGELOG.md",
+		"maskEmailAddresses": 1,
+		"outputAbbreviatedPath": "\/bower_components\/matchHeight\/CHANGELOG.html",
+		"outputFormat": 0,
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
+	"\/bower_components\/matchHeight\/dist\/jquery.matchHeight-min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/matchHeight\/dist\/jquery.matchHeight-min.js",
+		"outputAbbreviatedPath": "\/bower_components\/matchHeight\/dist\/min\/jquery.matchHeight-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/bower_components\/matchHeight\/dist\/jquery.matchHeight.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/matchHeight\/dist\/jquery.matchHeight.js",
+		"outputAbbreviatedPath": "\/bower_components\/matchHeight\/dist\/min\/jquery.matchHeight.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/bower_components\/matchHeight\/gulpfile.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/matchHeight\/gulpfile.js",
+		"outputAbbreviatedPath": "\/bower_components\/matchHeight\/min\/gulpfile.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/bower_components\/matchHeight\/jquery.matchHeight-min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/matchHeight\/jquery.matchHeight-min.js",
+		"outputAbbreviatedPath": "\/bower_components\/matchHeight\/min\/jquery.matchHeight-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/bower_components\/matchHeight\/jquery.matchHeight.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/matchHeight\/jquery.matchHeight.js",
+		"outputAbbreviatedPath": "\/bower_components\/matchHeight\/min\/jquery.matchHeight.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/bower_components\/matchHeight\/matchHeight.jquery.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/matchHeight\/matchHeight.jquery.json",
+		"orderOutput": 1,
+		"outputAbbreviatedPath": "\/bower_components\/matchHeight\/min\/matchHeight.jquery.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/bower_components\/matchHeight\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/matchHeight\/package.json",
+		"orderOutput": 1,
+		"outputAbbreviatedPath": "\/bower_components\/matchHeight\/min\/package.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/bower_components\/matchHeight\/README.md": {
+		"criticStyle": 0,
+		"enableFootnotes": 1,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/matchHeight\/README.md",
+		"maskEmailAddresses": 1,
+		"outputAbbreviatedPath": "\/bower_components\/matchHeight\/README.html",
+		"outputFormat": 0,
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
 	"\/bower_components\/neutroncss\/_neutron.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 10,
+		"decimalPrecision": 2,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -708,7 +874,7 @@
 	"\/bower_components\/neutroncss\/modules\/_floatbox.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 10,
+		"decimalPrecision": 2,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -724,7 +890,7 @@
 	"\/bower_components\/neutroncss\/modules\/_queries.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 10,
+		"decimalPrecision": 2,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -740,7 +906,7 @@
 	"\/bower_components\/neutroncss\/modules\/_utilities.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 10,
+		"decimalPrecision": 2,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -774,34 +940,18 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/bower_components\/normalize-scss\/_normalize.scss": {
-		"createSourceMap": 1,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/normalize-scss\/_normalize.scss",
-		"outputAbbreviatedPath": "\/bower_components\/css\/_normalize.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
-		"shouldRunAutoprefixer": 1,
-		"shouldRunBless": 1,
-		"useLibsass": 1
-		},
-	"\/bower_components\/normalize-scss\/bower.json": {
+	"\/bower_components\/normalize-css\/bower.json": {
 		"fileType": 524288,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/normalize-scss\/bower.json",
+		"inputAbbreviatedPath": "\/bower_components\/normalize-css\/bower.json",
 		"orderOutput": 1,
-		"outputAbbreviatedPath": "\/bower_components\/normalize-scss\/min\/bower.json",
+		"outputAbbreviatedPath": "\/bower_components\/normalize-css\/min\/bower.json",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
 		},
-	"\/bower_components\/normalize-scss\/LICENSE.md": {
+	"\/bower_components\/normalize-css\/LICENSE.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
 		"enableLabels": 1,
@@ -810,9 +960,9 @@
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/normalize-scss\/LICENSE.md",
+		"inputAbbreviatedPath": "\/bower_components\/normalize-css\/LICENSE.md",
 		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/bower_components\/normalize-scss\/LICENSE.html",
+		"outputAbbreviatedPath": "\/bower_components\/normalize-css\/LICENSE.html",
 		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -822,35 +972,14 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/bower_components\/normalize-scss\/normalize.css": {
+	"\/bower_components\/normalize-css\/normalize.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/normalize-scss\/normalize.css",
+		"inputAbbreviatedPath": "\/bower_components\/normalize-css\/normalize.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
-		},
-	"\/bower_components\/normalize-scss\/README.md": {
-		"criticStyle": 0,
-		"enableFootnotes": 1,
-		"enableLabels": 1,
-		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
-		"fileType": 4096,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/normalize-scss\/README.md",
-		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/bower_components\/normalize-scss\/README.html",
-		"outputFormat": 0,
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"parseMetadata": 1,
-		"processHTML": 0,
-		"randomFootnoteNumbers": 0,
-		"useCompatibilityMode": 0
 		},
 	"\/css\/main.css": {
 		"fileType": 16,
@@ -863,8 +992,8 @@
 		},
 	"\/Gruntfile.js": {
 		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/Gruntfile.js",
 		"outputAbbreviatedPath": "\/min\/Gruntfile.js",
 		"outputPathIsOutsideProject": 0,
@@ -976,8 +1105,8 @@
 		},
 	"\/js\/vendor\/jquery.min.js": {
 		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/js\/vendor\/jquery.min.js",
 		"outputAbbreviatedPath": "\/js\/vendor\/min\/jquery.min.js",
 		"outputPathIsOutsideProject": 0,
@@ -993,7 +1122,7 @@
 		"outputAbbreviatedPath": "\/js\/min\/vendor\/modernizr.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
-		"outputStyle": 2,
+		"outputStyle": 0,
 		"syntaxCheckerStyle": 0
 		},
 	"\/kit\/blank.kit": {
@@ -1019,7 +1148,7 @@
 	"\/scss\/_global.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 10,
+		"decimalPrecision": 2,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
@@ -1032,10 +1161,42 @@
 		"shouldRunBless": 1,
 		"useLibsass": 1
 		},
+	"\/scss\/_reset.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 2,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_reset.scss",
+		"outputAbbreviatedPath": "\/css\/_reset.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 1,
+		"useLibsass": 1
+		},
+	"\/scss\/_var.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 2,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_var.scss",
+		"outputAbbreviatedPath": "\/css\/_var.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 1,
+		"useLibsass": 1
+		},
 	"\/scss\/main.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 10,
+		"decimalPrecision": 2,
 		"fileType": 4,
 		"ignore": 0,
 		"ignoreWasSetByUser": 1,
@@ -1060,21 +1221,13 @@
 			"position": 0,
 			"type": 0
 			}
-		],
-	"\/js\/vendor\/modernizr.js": [
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/bower_components\/detectizr\/dist\/detectizr.js",
-			"position": 0,
-			"type": 1
-			}
 		]
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
 	"displayValue": "mp3wizard-boilerplate",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "meme-ceiling"
+	"iconImageName": "meme-lotr"
 	},
 "projectSettings": {
 	"alwaysUseExternalServer": 0,
@@ -1669,7 +1822,7 @@
 	"sassAutoOutputPathStyle": 2,
 	"sassCreateSourceMap": 1,
 	"sassDebugStyle": 0,
-	"sassDecimalPrecision": 10,
+	"sassDecimalPrecision": 2,
 	"sassOutputStyle": 3,
 	"sassUseLibsass": 1,
 	"shouldRunAutoprefixer": 1,

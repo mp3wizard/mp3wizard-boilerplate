@@ -1,7 +1,10 @@
-@import "../bower_components/normalize-scss/_normalize.scss";
+@import "bourbon", "neat";
+@import "../bower_components/normalize-css/normalize.css";
 @import "../bower_components/neutroncss/_neutron.scss";
 
 // Font icon
 @import "../bower_components/font-awesome/scss/font-awesome.scss";
 
+@import "_var";
+@import "_reset";
 @import "_global";

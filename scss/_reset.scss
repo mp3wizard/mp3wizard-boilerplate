@@ -1,0 +1,61 @@
+/*----------  Clearfix (NEW 2012)  ----------*/
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+/*----------  Remove Spinner input[type="number"]  ----------*/
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}
+
+/*----------  Font Smoothing  ----------*/
+@mixin font-smoothing($value: on) {
+    @if $value == on {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    @else {
+        -webkit-font-smoothing: subpixel-antialiased;
+        -moz-osx-font-smoothing: auto;
+    }
+}
+//Usage
+.dark-on-light {
+    @include font-smoothing(off);
+}
+
+.light-on-dark {
+    @include font-smoothing(on);
+}
+
+
+html{
+	font-size:110%;
+	@include media($rwd-desktop) {
+		font-size: 90%;
+	}
+}
+body {
+	font-size: 16px;
+	@include font-smoothing(on);
+}
+header, footer {
+	font-family: $f-header;
+}
+article, aside {
+	font-family: $f-text;
+} 
