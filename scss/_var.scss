@@ -7,14 +7,23 @@ $rwd-desktop: em(1024);
 $rwd-widescreen: em(1140) + $padding-smallscreen;
 
 /*----------  Color  ----------*/
+$t-dark01: #131516; // JET
+$t-dark02: #373d3f; // Raven
+
 $red01: red;
+
 
 /*----------  Font Family  ----------*/
 $f-header: 'Kanit', sans-serif;
 $f-text: 'Trirong', serif;
 
 /*----------  Based Color Text  ----------*/
-$text-read: #131516;
-$text-link: ;
+$text-read: $t-dark02;
+$text-link: $t-dark01;
+$text-link-hover: $red01;
+
+/*----------  Times  ----------*/
+$fade-link: 0.25s;
+
 
 

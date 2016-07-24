@@ -1,3 +1,12 @@
 body {
 	color: $text-read;
 }
+a {
+	color: $text-link;
+	text-decoration: none;
+
+	&:hover, &.active, .touchevents &:active ,.no-touchevents &:hover {
+		color: $text-link-hover;
+	}
+}
+
