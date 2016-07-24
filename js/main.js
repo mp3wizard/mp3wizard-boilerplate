@@ -1,6 +1,7 @@
 jQuery(document).ready(function($) {
 
-    // Fixed Placeholder
+    /*----------  Fixed Placeholder in browser not support  ----------*/
+    
     if(!Modernizr.input.placeholder){
         $("input").each(function(){
           if($(this).val()=="" && $(this).attr("placeholder")!=""){

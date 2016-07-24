@@ -1,7 +1,10 @@
 /*----------  Responsive Screen Size  ----------*/
+$body-max-width: 1140px;
+$padding-smallscreen: em(8);
+
 $rwd-tablet: em(768);
 $rwd-desktop: em(1024);
-$rwd-widescreen: em(1140);
+$rwd-widescreen: em(1140) + $padding-smallscreen;
 
 /*----------  Color  ----------*/
 $red01: red;
@@ -9,4 +12,9 @@ $red01: red;
 /*----------  Font Family  ----------*/
 $f-header: 'Kanit', sans-serif;
 $f-text: 'Trirong', serif;
+
+/*----------  Based Color Text  ----------*/
+$text-read: #131516;
+$text-link: ;
+
 

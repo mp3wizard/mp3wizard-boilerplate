@@ -50,12 +50,22 @@ html{
 	}
 }
 body {
-	font-size: 16px;
 	@include font-smoothing(on);
+	max-width: 100%;
 }
 header, footer {
 	font-family: $f-header;
+	padding-left: $padding-smallscreen;
+	padding-right: $padding-smallscreen;
+
+	@include media($rwd-widescreen) {
+		padding-left: calc(50% - #{$body-max-width / 2});
+		padding-right: calc(50% - #{$body-max-width / 2});
+	}
 }
 article, aside {
 	font-family: $f-text;
+}
+p {
+	line-height: 1.3;
 } 
