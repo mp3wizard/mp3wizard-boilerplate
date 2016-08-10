@@ -1,10 +1,11 @@
 /*----------  Responsive Screen Size  ----------*/
 $body-max-width: 1140px;
-$padding-smallscreen: em(8);
+$padding-mobile: em(8);
+$padding-tablet: em(16);
 
 $rwd-tablet: em(768);
 $rwd-desktop: em(1024);
-$rwd-widescreen: em(1140) + $padding-smallscreen;
+$rwd-widescreen: em(1140) + $padding-tablet;
 
 /*----------  Color  ----------*/
 $t-dark01: #131516; // JET
