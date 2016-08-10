@@ -39,6 +39,7 @@
     "commit": "59d61ce724ff7a0bf34ad08c0febcbc278dd9c78"
   },
   "_source": "https://github.com/brianreavis/sifter.js.git",
-  "_target": "0.5.x",
-  "_originalSource": "sifter"
+  "_target": "^0.5.1",
+  "_originalSource": "sifter",
+  "_direct": true
 }
